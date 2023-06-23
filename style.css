@@ -86,6 +86,11 @@
   transition: filter, border-radius, 2s;
 }
 
+.ex-8-img:hover {
+  filter: grayscale(50%) sepia(45%);
+  border-radius: 30px;
+}
+
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
