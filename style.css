@@ -124,6 +124,23 @@
 .ex-11-icon {
   font-size: 60px;
 }
+
+.ex-11-icon:hover {
+  animation-name: spin-ex-11;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes spin-ex-11 {
+  0% {
+    rotate: 0;
+  }
+
+  90% {
+    rotate: 270deg;
+  }
+}
+
 .ex-12-button,
 .ex-13-button {
   position: relative;
